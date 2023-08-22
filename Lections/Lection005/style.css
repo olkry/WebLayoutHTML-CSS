@@ -1,0 +1,65 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+
+.item {
+      /* max-width: 1200px;
+      min-height: 100vh; */
+      border: 1px solid #000;
+}
+
+.content {
+      display: flex;
+      justify-content: center;
+      background-color: #ccc;
+      flex-wrap: wrap;
+}
+
+.element {
+      width: 33.333333vw;
+      height: 50vh;
+      border: 1px solid #000;
+      overflow: scroll;
+      box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+
+      /* стили для планшета */
+      h1 {
+            font-size: 24px;
+      }
+
+      .element {
+            width: 50vw;
+            height: 250px;
+      }
+}
+
+@media (max-width: 767px) {
+
+      /* стили для мобилки */
+      h1 {
+            font-size: 18px;
+            text-align: center;
+      }
+
+      .element {
+            width: 100vw;
+            height: 200px;
+      }
+}
+
+@media (min-width: 768px) {
+      body {
+            padding: 32px;
+      }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+      .item {
+            text-decoration: underline;
+      }
+}
