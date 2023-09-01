@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.media-box {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-box audio {
+    position: absolute;
+    bottom: 0;
+}
+
+.media-box video {
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+.media-box p {
+    position: absolute;
+    color: bisque;
+
+}
