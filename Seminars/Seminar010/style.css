@@ -1,0 +1,43 @@
+.scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.navbar-position {
+    position: absolute;
+}
+
+.scroll-list {
+    padding-left: 150px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../Seminar009DZ/IMG/for_tab/Forma\ 1.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../Seminar009DZ/IMG/for_tab/Forma\ 4.svg);
+}
+
+.pic-heigh {
+    height: 400px;
+}
+
+.carousel-indicators [data-bs-target] {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid lightsalmon;
+    border-radius: 15px;
+}
+
+.nav-top {
+    justify-content: flex-end !important;
+}
+
+@media (max-width:1024px) {
+    .nav-item {
+        text-align: right;
+    }
+}
